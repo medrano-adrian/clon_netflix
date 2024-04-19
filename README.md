@@ -8,6 +8,7 @@
 ## Creación de las páginas y css
 
 - Home(incompleto)
+- Descripción(incompleto)
 - Login(incompleto)
 - Perfil(incompleto)
 

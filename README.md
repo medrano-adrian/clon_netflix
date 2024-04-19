@@ -7,7 +7,7 @@
 
 ## Creación de las páginas y css
 
-- Home(incompleto)
+- Home(incompleto, inicio) VER EN HOME.JSX QUE ESTÁN COMENTADOS LOS COMPONENTES DE NAV, BANNER Y FOOTER
 - Descripción(incompleto)
 - Login(incompleto)
 - Perfil(incompleto)
@@ -16,6 +16,6 @@
 
 - Nav(incompleto)
 - Banner(incompleto)
-- Rows(incompleto)
+- Rows(incompleto, inicio)
 - Footer(incompleto)
 

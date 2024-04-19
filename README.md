@@ -10,7 +10,8 @@
 - Home(incompleto, inicio) VER EN HOME.JSX QUE ESTÁN COMENTADOS LOS COMPONENTES DE NAV, BANNER Y FOOTER
 - Descripción(incompleto)
 - Login(incompleto)
-- Perfil(incompleto)
+- Perfil:
+    - Agregado de 4 imagenes en la carpeta images para la pagina de perfil.
 
 ## Creación de componentes y css
 

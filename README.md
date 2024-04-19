@@ -2,6 +2,7 @@
 
 - Limpieza de archivos
 - Instalación de axios (hacer npm i)
+- Instalación de react-router-dom (hacer npm i)
 - Agregado de imágenes (logo, avatar, banner para prueba hasta que se conecte a la API TMDB)
 - Agregado de carpeta features, donde está la conexión a axios y rutas para la API
 
@@ -19,4 +20,7 @@
 - Banner(incompleto)
 - Rows(casi completo, falta ver ruta para descripción)
 - Footer(incompleto)
+
+## Creación SOLO DE PRUEBA
+- DescripcionPrueba.jsx (para probar link ) desde app.jsx y ver si funciona el link en cada foto en rows.jsx
 

@@ -1,6 +1,7 @@
 import '../styles/Rows.css';
 import axios from '../features/axios';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
 const Rows = ({title, fetchUrl}) => {
@@ -17,13 +18,15 @@ const Rows = ({title, fetchUrl}) => {
   }, [fetchUrl]);
   
   console.log(movies);
-  
+
   return (
     <div className='rows'>
       <h2 className='rows__title'>{title}</h2>
       <div className='rows__posters'>
         {movies.map(movie => (
-          <img className='rows__poster' key={movie.id} src={`${urlBase}${movie.poster_path}`} alt={movie.name} />
+          <Link to='/descripcionprueba' className='rows__poster' key={movie.id}>
+            <img className='rows__poster__img' key={movie.id} src={`${urlBase}${movie.poster_path}`} alt={movie.name} />
+          </Link>
         ))}
       </div>
     </div>

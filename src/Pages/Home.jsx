@@ -1,4 +1,5 @@
 import Rows from '../Components/Rows';
+import requests from '../features/Requests';
 import '../styles/Home.css';
 
 const Home = () => {
@@ -6,7 +7,14 @@ const Home = () => {
     <div className='home'>
       {/* <Nav /> */}
       {/* <Banner /> */}
-      <Rows />
+      <Rows title='NETFLIX' fetchUrl={requests.fetchNetflixOriginals} />
+      <Rows title='AMAZON PRIME' fetchUrl={requests.fetchAmazonPrimeOriginals} />
+      <Rows title='ACCIÓN' fetchUrl={requests.fetchActionMovies} />
+      <Rows title='CRIMEN' fetchUrl={requests.fetchCrimeMovies} />
+      <Rows title='COMEDIA' fetchUrl={requests.fetchComedyMovies} />
+      <Rows title='TERROR' fetchUrl={requests.fetchHorrorMovies} />
+      <Rows title='ROMANCE' fetchUrl={requests.fetchRomanceMovies} />
+      <Rows title='DOCUMENTALES' fetchUrl={requests.fetchDocumentaries} />
       {/* <Footer/> */}
     </div>
   )

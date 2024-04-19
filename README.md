@@ -16,6 +16,6 @@
 
 - Nav(incompleto)
 - Banner(incompleto)
-- Rows(incompleto, inicio)
+- Rows(casi completo, falta ver ruta para descripción)
 - Footer(incompleto)
 

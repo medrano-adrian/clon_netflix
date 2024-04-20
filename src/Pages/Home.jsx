@@ -1,4 +1,5 @@
 import Rows from '../Components/Rows';
+import Footer from '../Components/Footer'
 import requests from '../features/Requests';
 import '../styles/Home.css';
 
@@ -15,7 +16,7 @@ const Home = () => {
       <Rows title='TERROR' fetchUrl={requests.fetchHorrorMovies} />
       <Rows title='ROMANCE' fetchUrl={requests.fetchRomanceMovies} />
       <Rows title='DOCUMENTALES' fetchUrl={requests.fetchDocumentaries} />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

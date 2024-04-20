@@ -3,7 +3,7 @@
 - Limpieza de archivos
 - Instalación de axios (hacer npm i)
 - Instalación de react-router-dom (hacer npm i)
-- Instalaciòn de FontAwesomeIcon (hacer npm i)
+- Instalación de FontAwesomeIcon (hacer npm i)
 - Agregado de imágenes (logo, avatar, banner para prueba hasta que se conecte a la API TMDB)
 - Agregado de carpeta features, donde está la conexión a axios y rutas para la API
 

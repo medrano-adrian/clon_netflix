@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import logoNetflix from '../../public/images/logo-netflix.png';
 import logoAvatar from '../../public/images/Netflix-avatar.png';
 import '../styles/Nav.css';

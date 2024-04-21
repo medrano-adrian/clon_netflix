@@ -17,7 +17,7 @@ const Rows = ({title, fetchUrl}) => {
     fetchData();
   }, [fetchUrl]);
   
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <div className='rows'>

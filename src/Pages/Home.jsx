@@ -1,3 +1,4 @@
+import Nav from '../Components/Nav'
 import Rows from '../Components/Rows';
 import Footer from '../Components/Footer'
 import requests from '../features/Requests';
@@ -6,7 +7,7 @@ import '../styles/Home.css';
 const Home = () => {
   return (
     <div className='home'>
-      {/* <Nav /> */}
+      <Nav/>
       {/* <Banner /> */}
       <Rows title='NETFLIX' fetchUrl={requests.fetchNetflixOriginals} />
       <Rows title='AMAZON PRIME' fetchUrl={requests.fetchAmazonPrimeOriginals} />

@@ -1,9 +1,13 @@
 .nav {
-    position: fixed;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
     top: 0;
     padding: 20px;
-    width: 100%;
-    height: 30px;
+    /*width: 100%;*/
+    height: 10vh;
     z-index: 1;
    
     /*Animaciones*/
@@ -18,22 +22,27 @@
 .nav_contents {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
 }
 
 .nav_logo {
-    position: fixed;
+    /*position: fixed;
     top: 0;
     left: 20px;
     width: 80px;
     object-fit: contain;
-    padding-left: 20px;
+    padding-left: 20px;*/
+    height: 80%;
     cursor: pointer;
 }
 
 .nav_avatar {
-    position: fixed;
+    /*position: fixed;
     right: 20px;
     width: 30px;
-    top: 5px;
+    top: 5px;*/
+    height: 50%;
     cursor: pointer;
 }

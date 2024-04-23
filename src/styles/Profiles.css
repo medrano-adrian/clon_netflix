@@ -1,0 +1,43 @@
+body{
+    background-color: #141414;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+
+}
+.choose-profile{
+display: flex;
+gap: 30px;
+}
+.choose-profile > li{
+    list-style: none;
+}
+.avatar{
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}

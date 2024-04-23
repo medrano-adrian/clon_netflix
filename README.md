@@ -9,10 +9,11 @@
 
 ## Creación de las páginas y css
 
-- Home(incompleto, inicio) VER EN HOME.JSX QUE ESTÁN COMENTADOS LOS COMPONENTES DE NAV Y BANNER
+- Home(incompleto) VER EN HOME.JSX QUE ESTÁ COMENTADO EL COMPONENTE BANNER
 - Descripción(incompleto)
 - Login(incompleto)
-- Perfil:
+- Inicio Sesión(incompleto)
+- Perfil(completo)
     - Agregado de 4 imagenes en la carpeta images para la pagina de perfil.
 
 ## Creación de componentes y css

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import logoNetflix from '../../public/images/logo-netflix.png';
-import logoAvatar from '../../public/images/Netflix-avatar.png';
+import logoAvatar1 from '../../public/images/Netflix-avatar.png';
 import '../styles/Nav.css';
 
 const Nav = () => {
@@ -22,8 +22,12 @@ const Nav = () => {
     return (
     <nav className= {`nav ${mostrar && "nav_black"}`}>
         <div className="nav_contents">
-            <img className="nav_logo" src={logoNetflix} alt="Logo de Netflix" />
-            <img className="nav_avatar" src={logoAvatar} alt="Netflix avatar" />
+            <a href='/'>
+                <img className="nav_logo" src={logoNetflix} alt="Logo de Netflix" />
+            </a>
+            <a href='/perfiles'>
+                <img className="nav_avatar" src={logoAvatar1} alt="Netflix avatar" />
+            </a>
         </div>
     </nav>
     )

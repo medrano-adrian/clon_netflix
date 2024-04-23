@@ -9,8 +9,8 @@ import '../styles/Home.css';
 const Home = () => {
   return (
     <div className='home'>
-      {/* <Profiles /> Solo para ver por el momento si se ve este componente */}
-      <Nav />
+      {/* <Profiles /> */}
+      <Nav/>
       {/* <Banner /> */}
       <Rows title='NETFLIX' fetchUrl={requests.fetchNetflixOriginals} />
       <Rows title='AMAZON PRIME' fetchUrl={requests.fetchAmazonPrimeOriginals} />

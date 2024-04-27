@@ -1,0 +1,44 @@
+.detail_title{
+    padding: 35px;
+}
+
+.details_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+.img_container {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+  
+.detail_img {
+    width: 70%;
+}
+
+.info_container{
+    width: 55%;
+}
+
+.info_container p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .details_container {
+        flex-direction: column;
+      }
+    
+    .img_container, .info_container{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .detail_img {
+        width: 100%;
+    }
+}

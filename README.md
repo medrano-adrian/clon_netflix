@@ -17,8 +17,8 @@
 
 ## Creación de componentes y css
 
-- Nav(incompleto)
-- Banner(incompleto)
+- Nav(completo con su css)
+- Banner(completo con su css)
 - Rows(casi completo, falta ver ruta para descripción)
 - Footer(completo) Los links no llevan a ningún lado
 

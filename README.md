@@ -10,7 +10,7 @@
 ## Creación de las páginas y css
 
 - Home(incompleto) VER EN HOME.JSX QUE ESTÁ COMENTADO EL COMPONENTE BANNER
-- Descripción(incompleto)
+- Descripción(completo)
 - Login(incompleto)
 - Inicio Sesión(incompleto)
 - Perfil(completo)
@@ -20,9 +20,5 @@
 
 - Nav(completo con su css respectivo)
 - Banner(incompleto)
-- Rows(casi completo, falta ver ruta para descripción)
+- Rows(completo)
 - Footer(completo) Los links no llevan a ningún lado
-
-## Creación SOLO DE PRUEBA
-- DescripcionPrueba.jsx (para probar link ) desde app.jsx y ver si funciona el link en cada foto en rows.jsx
-

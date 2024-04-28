@@ -24,7 +24,7 @@ const Rows = ({title, fetchUrl}) => {
       <h2 className='rows__title'>{title}</h2>
       <div className='rows__posters'>
         {movies.map(movie => (
-          <Link to={`/descripcionprueba/${movie.id}`} target="_blank" className='rows__poster' key={movie.id}>
+          <Link to={`/pelicula/${movie.id}`} target="_blank" className='rows__poster' key={movie.id}>
             <img className='rows__poster__img' key={movie.id} src={`${urlBase}${movie.poster_path}`} alt={movie.name} />
           </Link>
         ))}

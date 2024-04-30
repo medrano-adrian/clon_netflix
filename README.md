@@ -11,7 +11,7 @@
 
 - Home(incompleto) VER EN HOME.JSX QUE ESTÁ COMENTADO EL COMPONENTE BANNER
 - Descripción(completo)
-- Login(incompleto)
+- Login(completo) Falta agregar el footer
 - Inicio Sesión(incompleto)
 - Perfil(completo)
     - Agregado de 4 imagenes en la carpeta images para la pagina de perfil.

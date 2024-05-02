@@ -11,25 +11,25 @@ const Profiles = () => {
         <h1>¿Quién está viendo ahora?</h1>
         <ul className="choose-profile">
           <li >
-            <a href="/">
+            <a href="/home">
               <img className="avatar" src={avatar1} alt="" />
             </a>
             <p>Mariano</p>
           </li>
           <li >
-            <a href="/" >
+            <a href="/home" >
               <img className="avatar" src={avatar2} alt="" />
             </a>
             <p>Adrián</p>
           </li>
           <li >
-            <a href="/" >
+            <a href="/home" >
               <img className="avatar" src={avatar3} alt="" />
             </a>
             <p>Verónica</p>
           </li>
           <li >
-            <a href="/">
+            <a href="/home">
               <img className="avatar" src={avatar4} alt="" />
             </a>
             <p>Ana</p>

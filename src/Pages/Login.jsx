@@ -1,9 +1,10 @@
-import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom';
+// import Footer from '../Components/Footer'
 import "../styles/Login.css"
 
 const Login = () => {
     return (
-        <>
+        <div className='login-page'>
             <div className='login-container'>
                 <form className='login-form' action="">
                     <h1>Inicia sesión</h1>
@@ -15,22 +16,24 @@ const Login = () => {
                         <input type="password" id='password' required />
                         <label id="password">Password</label>
                     </div>
-                    <button type='submit'>Iniciar sesión</button>
+                    <Link to="/perfiles">
+                        <button type='submit'>Iniciar sesión</button>
+                    </Link>
                     <div className="form-help">
-                        <a href="">¿Olvidaste la contraseña?</a>
+                        <a href="#">¿Olvidaste la contraseña?</a>
                         <div className="rememberMe">
                             <input type="checkbox" id="recuerdame" />
-                            <label id="remember_me">Recuerdame</label>
+                            <label id="remember_me">Recuérdame</label>
                         </div>
-                        <p>Primera vez en Netflix? <a href=""><strong>Suscribete ahora</strong></a></p>
+                        <p>¿Primera vez en Netflix? <a href="#"><strong>Suscríbete ahora</strong></a></p>
                     </div>
 
-                    <small className='recaptcha'>Esta pagina esta protegida por Google reCAPTCHA para comprobar que no eres un robot <a href="">Mas info</a></small>
+                    <small className='recaptcha'>Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot <a href="#">Más info</a></small>
 
                 </form>
             </div>
 
-        </>
+        </div>
 
     )
 }

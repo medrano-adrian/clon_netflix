@@ -12,7 +12,8 @@
 - Home(incompleto) VER EN HOME.JSX QUE ESTÁ COMENTADO EL COMPONENTE BANNER
 - Descripción(completo)
 - Login(completo) Falta agregar el footer
-- Inicio Sesión(incompleto)
+    - Al dar Iniciar Sesión, va a perfiles y al apretar en cada avatar va a home
+    - Al usar Link no verifica los input
 - Perfil(completo)
     - Agregado de 4 imagenes en la carpeta images para la pagina de perfil.
 

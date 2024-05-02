@@ -1,15 +1,11 @@
 import Nav from '../Components/Nav';
-// import Profiles from './Profiles'
 import Rows from '../Components/Rows';
 import Footer from '../Components/Footer'
 import requests from '../features/Requests';
 
-import '../styles/Home.css';
-
 const Home = () => {
   return (
     <div className='home'>
-      {/* <Profiles /> */}
       <Nav/>
       {/* <Banner /> */}
       {/* <Rows title='NETFLIX' fetchUrl={requests.fetchNetflixOriginals} />

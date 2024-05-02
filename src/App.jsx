@@ -6,14 +6,15 @@ import Profiles from "../src/Pages/Profiles";
 import Login from "./Pages/Login";
 
 function App() {
+  
   return (
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Login />} />
           <Route path="/perfiles" element={<Profiles />} />
           <Route path="/pelicula/:id" element={<DescripcionPrueba />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>

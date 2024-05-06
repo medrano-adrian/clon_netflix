@@ -9,7 +9,7 @@
 
 .banner_contents {
     margin-left: 30px; /*30px*/
-    padding-top: 140px; /*140px*/
+    padding-top: 25vh;
     height: 30vh; /*ver 190px*/
 }
 
@@ -23,7 +23,7 @@
     width: 90%;
     line-height: 1.4;
     padding-top: 1rem;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     max-width: 25vw; /*ver 360px*/
     height: 5em; /*ver 80px*/
 }

@@ -9,7 +9,7 @@
 
 ## Creación de las páginas y css
 
-- Home(incompleto) VER EN HOME.JSX QUE ESTÁ COMENTADO EL COMPONENTE BANNER
+- Home(completo)
 - Descripción(completo)
 - Login(completo) Falta agregar el footer
     - Al dar Iniciar Sesión, va a perfiles y al apretar en cada avatar va a home
@@ -20,6 +20,6 @@
 ## Creación de componentes y css
 
 - Nav(completo con su css respectivo)
-- Banner(incompleto)
+- Banner(completo con su css respectivo)
 - Rows(completo)
 - Footer(completo) Los links no llevan a ningún lado

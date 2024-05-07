@@ -14,7 +14,7 @@
 }
 
 .banner_title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
@@ -24,8 +24,20 @@
     line-height: 1.4;
     padding-top: 1rem;
     font-size: 1.5rem;
-    max-width: 25vw; /*ver 360px*/
-    height: 5em; /*ver 80px*/
+    max-width: 80vw; /*ver 360px*/
+    height: 15vh; /*ver 80px*/
+}
+@media (width <= 600px) {
+    .banner_description{
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+}
+@media (width <= 420px) {
+    .banner_description{
+        font-size: 1rem;
+        max-width: 100%;
+    }
 }
 
 .banner_but {

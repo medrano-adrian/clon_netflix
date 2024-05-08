@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faPlus, faPlay } from '@fortawesome/free-solid-svg-icons';
 import axios from "../features/axios";
@@ -22,7 +22,7 @@ const Banner = () => {
         fetchData();
     }, []);
 
-    console.log(movie);
+    // console.log(movie);
 
     const recortar = (texto, n) => {
         return (texto.length > n) ? texto.substr (0, n - 1) + '...' : texto;

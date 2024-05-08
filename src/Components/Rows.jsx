@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
-const Rows = ({title, fetchUrl}) => {
+const Rows = ({ title, fetchUrl }) => {
+  
   const [movies, setMovies] = useState([]);
   const urlBase = 'https://image.tmdb.org/t/p/original/';
 
@@ -16,6 +17,7 @@ const Rows = ({title, fetchUrl}) => {
     }
     fetchData();
   }, [fetchUrl]);
+  // console.log(movies);
 
   const scrollRef = useRef();
   const [scroll, setScroll] = useState(0);
@@ -25,7 +27,6 @@ const Rows = ({title, fetchUrl}) => {
     setScroll(moreScroll);
     scrollRef.current.scrollLeft = moreScroll;
   }
-  // console.log(movies);
 
   return (
     <div className='rows'>

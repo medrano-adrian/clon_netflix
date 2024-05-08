@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 import "../styles/Login.css"
 
 const Login = () => {
     return (
+        <>
         <div className='login-page'>
             <div className='login-container'>
                 <form className='login-form' action="">
@@ -34,7 +35,8 @@ const Login = () => {
             </div>
 
         </div>
-
+        <Footer/>
+        </>
     )
 }
 

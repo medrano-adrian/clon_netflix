@@ -11,7 +11,7 @@
 
 - Home(completo)
 - Descripción(completo)
-- Login(completo) Falta agregar el footer
+- Login(completo) 
     - Al dar Iniciar Sesión, va a perfiles y al apretar en cada avatar va a home
     - Al usar Link no verifica los input
 - Perfil(completo)

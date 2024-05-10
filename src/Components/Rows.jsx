@@ -32,13 +32,13 @@ const Rows = ({ title, fetchUrl }) => {
     <div className='rows'>
       <h2 className='rows__title'>{title}</h2>
       <div className='rows__posters' ref={scrollRef}>
-        <img className='rows__arrows left' onClick={()=>{handleScroll(-400)}} src="../../public/images/icons8-flecha-izquierda-48.png" alt="Flecha izquierda" />
+        <img className='rows__arrows left' onClick={()=>{handleScroll(-400)}} src="/images/icons8-flecha-izquierda-48.png" alt="Flecha izquierda" />
         {movies.map(movie => (
           <Link to={`/pelicula/${movie.id}`} target="_blank" className='rows__poster' key={movie.id}>
             <img className='rows__poster__img' key={movie.id} src={`${urlBase}${movie.poster_path}`} alt={movie.name} />
           </Link>
         ))}
-        <img className='rows__arrows right' onClick={()=>{handleScroll(400)}} src="../../public/images/icons8-flecha-derecha-48.png" alt="Flecha derecha" />
+        <img className='rows__arrows right' onClick={()=>{handleScroll(400)}} src="/images/icons8-flecha-derecha-48.png" alt="Flecha derecha" />
       </div>
     </div>
   )
